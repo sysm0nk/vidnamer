@@ -28,8 +28,8 @@ clip_final_v3.mov        →  nino-saltando-pileta.mov
 
 ---
 ## Requisitos
-- GNU/Linux
-- Python
+- GNU/Linux 🐧
+- Python 🐍
 
 ---
 ## Instalación
