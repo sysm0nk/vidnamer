@@ -1,5 +1,8 @@
 # 🎬 Vidnamer -> Video Renamer con IA
 
+<img width="409" height="405" alt="image" src="https://github.com/user-attachments/assets/fc680fdd-c8ff-4201-83da-37a61724a54b" />
+
+
 Renombra automáticamente tus videos usando Google Gemini. El script analiza frames de cada video y sugiere nombres descriptivos con el formato `sujeto-accion-lugar`.
 
 **No renombra los archivos directamente** — genera un script bash para que lo revises y ejecutes vos. ✅
