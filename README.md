@@ -85,7 +85,7 @@ python rename_videos.py [--dir CARPETA] [--model MODELO] [--dry-run] [--output A
 | `--dir` | `./mis_videos` | Carpeta con los videos |
 | `--model` | `gemini-flash-lite-latest` | Modelo Gemini a usar |
 | `--dry-run` | `False` | Muestra sugerencias sin generar el .sh |
-| `--context` |  Archivo .txt con contexto personal (personas, mascotas, lugares) |
+| `--context` | context.txt |Archivo .txt con contexto personal (personas, mascotas, lugares) |
 
 ### Ejemplos
 
