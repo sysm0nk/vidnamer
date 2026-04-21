@@ -38,7 +38,7 @@ clip_final_v3.mov        →  nino-saltando-pileta.mov
 
 ```bash
 git clone https://github.com/sysm0nk/vidnamer.git
-cd video-renamer
+cd vidnamer
 ```
 
 ### 2. Instalar dependencias
