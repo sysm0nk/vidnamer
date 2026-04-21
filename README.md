@@ -69,7 +69,7 @@ export GEMINI_API_KEY="tu_clave_aqui"
 ### Uso básico
 
 ```bash
-python rename_videos.py
+python vidnamer.py
 ```
 
 Procesa todos los `.mp4`, `.mov` y `.mkv` dentro de `./mis_videos/`.
@@ -77,7 +77,7 @@ Procesa todos los `.mp4`, `.mov` y `.mkv` dentro de `./mis_videos/`.
 ### Opciones disponibles
 
 ```
-python rename_videos.py [--dir CARPETA] [--model MODELO] [--dry-run] [--output ARCHIVO]
+python vidnamer.py [--dir CARPETA] [--model MODELO] [--dry-run] [--output ARCHIVO]
 ```
 
 | Argumento | Default | Descripción |
@@ -91,16 +91,16 @@ python rename_videos.py [--dir CARPETA] [--model MODELO] [--dry-run] [--output A
 
 ```bash
 # Analizar una carpeta específica
-python rename_videos.py --dir ~/Videos/vacaciones
+python vidnamer.py --dir ~/Videos/vacaciones
 
 # Ver sugerencias sin generar el script (modo prueba)
-python rename_videos.py --dry-run
+python vidnamer.py --dry-run
 
 # Usar un modelo diferente
-python rename_videos.py --model gemini-2.0-flash
+python vidnamer.py --model gemini-2.0-flash
 
 # Todo junto
-python rename_videos.py --dir ~/Videos --dry-run --model gemini-2.0-flash
+python vidnamer.py --dir ~/Videos --dry-run --model gemini-2.0-flash
 ```
 
 ### Usar contexto personal
@@ -122,7 +122,7 @@ Si el ambiente parece tropical con palmeras es Brasil
 Luego usá el flag `--context`:
 
 ```bash
-python rename_videos.py --dir ~/Videos --context context.txt
+python vidnamer.py --dir ~/Videos --context context.txt
 ```
 
 Resultado con contexto vs sin contexto:
