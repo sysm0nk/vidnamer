@@ -1,0 +1,25 @@
+# Variables de entorno — NUNCA subir al repo
+.env
+
+# Contexto personal — puede contener nombres de personas
+context.txt
+
+# Carpetas generadas por el script
+temp_frames/
+mis_videos/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Output generado
+ejecutar_renombrado.sh
+*.sh
+
+# OS
+.DS_Store
+Thumbs.db

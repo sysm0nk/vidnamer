@@ -1,0 +1,17 @@
+# Archivo de contexto personal para vidnamer
+# Las líneas que empiezan con # son comentarios y se ignoran.
+# Describí personas, mascotas y lugares para que la IA los identifique correctamente.
+
+# Personas
+Si ves una mujer alta de pelo rubio es Carmen
+Si ves un niño de aproximadamente 8 años es Gerónimo
+Si hay un hombre con barba y anteojos es Marcos
+
+# Mascotas
+Si ves un perro golden retriever es Bobby
+Si ves un gato naranja es Michi
+
+# Lugares
+Si el ambiente parece tropical con palmeras es Brasil
+Si ves una montaña nevada es Bariloche
+Si hay una pileta grande con reposeras es la quinta de los abuelos
