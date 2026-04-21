@@ -27,7 +27,11 @@ clip_final_v3.mov        →  nino-saltando-pileta.mov
 
 
 ---
+## Requisitos
+- GNU/Linux
+- Python
 
+---
 ## Instalación
 
 ### 1. Clonar el repositorio
