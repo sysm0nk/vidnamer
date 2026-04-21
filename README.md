@@ -11,7 +11,7 @@ Renombra automáticamente tus videos usando Google Gemini. El script analiza fra
 1. Extrae 3 frames clave de cada video (al 10%, 50% y 90% de su duración)
 2. Los envía a Gemini para obtener un nombre descriptivo
 3. Genera un script `ejecutar_renombrado.sh` con los comandos `mv` listos
-4. 
+
 <img width="1284" height="811" alt="image" src="https://github.com/user-attachments/assets/409d88ac-93d5-41f1-8c37-e5244fe38dfc" />
 ```
 VID_20240815_103022.mp4  →  perro-corriendo-parque.mp4
