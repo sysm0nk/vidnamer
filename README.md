@@ -30,7 +30,7 @@ clip_final_v3.mov        →  nino-saltando-pileta.mov
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/tu-usuario/video-renamer.git
+git clone https://github.com/sysm0nk/vidnamer.git
 cd video-renamer
 ```
 
@@ -78,7 +78,7 @@ python rename_videos.py [--dir CARPETA] [--model MODELO] [--dry-run] [--output A
 | `--dir` | `./mis_videos` | Carpeta con los videos |
 | `--model` | `gemini-flash-lite-latest` | Modelo Gemini a usar |
 | `--dry-run` | `False` | Muestra sugerencias sin generar el .sh |
-| `--context` | *(ninguno)* | Archivo .txt con contexto personal (personas, mascotas, lugares) |
+| `--context` |  Archivo .txt con contexto personal (personas, mascotas, lugares) |
 
 ### Ejemplos
 
